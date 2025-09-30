@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header li {
+    list-style: none;
+
+}
+
+#header a {
+    text-decoration: none;
+        color: #fff;
+        padding: 0 15px;
+}
+
+#header {
+    display: flex;
+}
+#nav1 {
+    background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%);
+        padding: 15px;
+        display: flex;
+        justify-content: space-around;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+#temu h1{
+    text-align: center;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    font-size: 30px;
+    
+}
+
+#img2 {
+    margin: 40px;
+    width: 400px;
+    margin-top: 60px;
+}
+
+#temu {
+    
+    width: 55%;
+    font-size: large;
+     margin-top: 80px;
+
+}
+
+
+#block1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#mean {
+    width: 55%;
+    font-size: large;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+#mean h1{
+    text-align: justify;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    font-size: 30px;
+    
+    margin-left: 80px;
+
+}
+
+#sold{
+    width: 55%;
+    font-size: large;
+    margin-top: 80px;
+    margin-left: 400px;
+    }
+
+    #sold h1{
+        text-align: justify;
+        margin-bottom: 70px;
+        margin-top: 60px;
+        font-size: 30px;
+        
+        margin-left: 80px;
+    }
+
+    #strength{
+        width: 55%;
+            font-size: large;
+            margin-top: 80px;
+            margin-left: 400px;
+    }
+
+    #strength h1{
+    text-align: justify;
+    margin-bottom: 70px;
+    margin-top: 60px;
+    font-size: 30px;      
+    }
+
+#block2 {
+display: flex;
+justify-content: start;
+
+}
+#Empowerment {
+margin-top: 100px;
+}
+
+#block3 {
+    display: flex;
+    justify-content: start;
+}
+#inclusion {
+    margin-top: 100px;
+}
+
+#container1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#block4 {
+    display: flex;
+    justify-content: start;
+    
+}
+#integrity {
+   margin-top: 100px;
+}
+
+#block5{
+    display: flex;
+    justify-content: start;
+}
+#socially{
+    margin-top: 100px;
+    
+}
+#container2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+

@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header li {
+    list-style: none;
+
+}
+
+#header a {
+    text-decoration: none;
+    color: black;
+    padding: 0 15px;
+}
+
+#header {
+    display: flex;
+}
