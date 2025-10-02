@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./carts.css" class="css">
+    <link rel="stylesheet" href="carts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav id="nav1">
@@ -15,10 +17,18 @@
             <li><a href="carts.html"><b>CARTS</b></a></li>
         </ul>
     </nav>
+
     
 
 
 
     <script src="./carts.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // animation duration (ms)
+            once: true,     // play only once
+        });
+    </script>
 </body>
 </html>

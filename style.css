@@ -39,8 +39,9 @@
 #welcome p{
     margin: 10px 0;
     line-height: 1.6;
+    font-size: 20px;
 }
-#welcome h1{
+#welcome h4{
     font-size: 36px;
     color: #0077b6;
 }
@@ -119,7 +120,7 @@
     line-height : 1.6;
     
     }
-    #info h2{
+    #info h4{
         font-size: 32px;
         color: #0077b6;
         margin-bottom: 16px;
@@ -129,6 +130,7 @@
         margin: 0 auto;
         color: #444;
         line-height: 1.6;
+        font-size: 20px;
     }
 
    #more-info {
@@ -151,9 +153,10 @@
  #mission p{
     width: 100%;
     max-width: 350px;
+    font-size: 20px;
     
  }
- #mission h2{
+ #mission h4{
     color: #0077b6;
  }
 
@@ -175,9 +178,10 @@
  #vision p{
     width: 100%;
     max-width: 350px;
+    font-size: 20px;
  }
 
- #vision h2{
+ #vision h4{
     color: #0077b6;
  }
 
@@ -198,8 +202,9 @@
 #testimonies p{
     width: 100%;
         max-width: 350px;
+        font-size: 20px;
 }
-#testimonies h2{
+#testimonies h4{
     color:#0077b6
 }
 #testimonies:hover{
@@ -310,5 +315,4 @@
      text-decoration: none;
      margin: 0 14px;
      font-weight: 500;
-     transition: color 0.2s;
  }

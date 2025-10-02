@@ -1,7 +1,8 @@
 {
-    "github.copilot.enable": {
-        "markdown": true,
-        "scminput": true,
-        "plaintext": true
-    }
+  "github.copilot.enable": {
+    "markdown": true,
+    "scminput": true,
+    "plaintext": true
+  },
+  "liveServer.settings.port": 5501
 }

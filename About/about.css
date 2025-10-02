@@ -1,4 +1,4 @@
-* {
+  *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -31,19 +31,21 @@
     text-align: center;
     margin-bottom: 70px;
     margin-top: 60px;
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    color: orange;
     
 }
 
 #img2 {
     margin: 40px;
-    width: 400px;
-    margin-top: 60px;
+    width: 50px;
+    margin-top: 30px;
 }
 
 #temu {
     
-    width: 55%;
+    width: 55%;  
     font-size: large;
      margin-top: 80px;
 
@@ -53,66 +55,137 @@
 #block1{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 0.5px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    /* border: 2px solid; */
+    margin-left: 100px;
 }
 
+
+#section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+    align-items: center;
+    /* padding: 0; */
+    margin-left: 100px;
+padding: 20px;
+box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+margin-top: 40px;
+}
+
+#oip{
+margin: 40px;
+margin-top: 30px;   
+}
+    
+    
+
 #mean {
-    width: 55%;
+    /* width: 55%; */
     font-size: large;
-    margin-top: 80px;
-    margin-left: 400px;
+    /* margin-top: 80px; */
+    /* margin-left: 400px; */
 }
 #mean h1{
     text-align: justify;
     margin-bottom: 70px;
-    margin-top: 60px;
-    font-size: 30px;
-    
+    font-size: 20px;
+    color: orange;
     margin-left: 80px;
+    font-weight: bold;
 
 }
 
+#section2{
+display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+    align-items: center;
+    margin-left: 100px;
+margin-top: 40px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+}
+
+#oip2{
+    margin: 40px;
+    margin-top: 30px;
+
+}
 #sold{
-    width: 55%;
+    /* width: 55%; */
     font-size: large;
-    margin-top: 80px;
-    margin-left: 400px;
+    /* margin-top: 3px; */
+    /* margin-left: 400px; */
     }
 
     #sold h1{
         text-align: justify;
         margin-bottom: 70px;
         margin-top: 60px;
-        font-size: 30px;
-        
+        font-size: 20px;
+        color: orange;
         margin-left: 80px;
+        font-weight: bold;
+    }
+
+    #section3{
+        display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 40px;
+    padding: 20px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    }
+
+    #temu img{
+        margin: 40px;
+            margin-top: 30px;
     }
 
     #strength{
-        width: 55%;
+        /* width: 55%; */
             font-size: large;
-            margin-top: 80px;
-            margin-left: 400px;
+            /* margin-top: 80px; */
+            /* margin-left: 400px; */
     }
 
     #strength h1{
-    text-align: justify;
-    margin-bottom: 70px;
-    margin-top: 60px;
-    font-size: 30px;      
+        text-align: justify;
+        margin-bottom: 70px;
+        margin-top: 60px;
+        font-size: 20px;
+        color: orange;
+        margin-left: 80px;
+        font-weight: bold;
     }
+     
 
 #block2 {
 display: flex;
 justify-content: start;
-
+padding: 20px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    margin-top: 40px;
 }
 #Empowerment {
 margin-top: 100px;
+
 }
 
 #block3 {
     display: flex;
     justify-content: start;
+    padding: 20px;
+        box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        margin-top: 40px;
 }
 #inclusion {
     margin-top: 100px;
@@ -126,7 +199,8 @@ margin-top: 100px;
 #block4 {
     display: flex;
     justify-content: start;
-    
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        margin-top: 40px;
 }
 #integrity {
    margin-top: 100px;
@@ -135,6 +209,8 @@ margin-top: 100px;
 #block5{
     display: flex;
     justify-content: start;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        margin-top: 40px;
 }
 #socially{
     margin-top: 100px;
@@ -144,6 +220,75 @@ margin-top: 100px;
     display: flex;
     justify-content: space-around;
 }
+#block6 {
+       display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid; */
+    align-items: center;
+    margin-left: 100px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+        margin-top: 40px;
+}
+#task5{
+    margin-top: 100px;
+
+}
+#community{
+    /* width: 55%; */
+        font-size: large;
+        /* margin-top: 80px; */
+        /* margin-left: 400px; */
+}
+#community h1{
+   text-align: justify;
+        margin-bottom: 70px;
+        margin-top: 60px;
+        font-size: 20px;
+        color: orange;
+        margin-left: 80px;
+        font-weight: bold;;
+}
+ 
 
 
+ 
 
+ 
+
+#footer-alt {
+    background: #222;
+    color: #fff;
+    padding: 80px 0 20px 0;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: 0 -4px 24px rgba(0, 0, 0, 0.12);
+}
+
+.footer-alt-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-alt-brand h3 {
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: #00b4d8;
+}
+
+.footer-alt-brand p {
+    font-size: 16px;
+    margin-bottom: 18px;
+    color: #bbb;
+}
+
+.footer-alt-links {
+    margin-bottom: 18px;
+}
+
+.footer-alt-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 14px;
+    font-weight: 500;
+}

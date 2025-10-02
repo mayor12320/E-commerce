@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 #header li {
     list-style: none;
 
@@ -10,10 +11,20 @@
 
 #header a {
     text-decoration: none;
-    color: black;
+    color: #fff;
     padding: 0 15px;
 }
 
 #header {
     display: flex;
+}
+
+#nav1 {
+    background: linear-gradient(90deg, #0077b6 0%, #00b4d8 100%);
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }

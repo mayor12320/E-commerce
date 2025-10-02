@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./product.css" class="css:">
+<link rel="stylesheet" href="product.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav id="nav1">
         <ul id="header">
             <li><a href="../index.html"><b>HOME</b></a></li>
-            <li><a href="../About/about.html"><b>ABOUT US</b></a></li>
+            <li><a href="../About/about.html"><b>ABOUT </b></a></li>
             <li><a href="product.html"><b>PRODUCT</b></a></li>
             <li><a href="../Carts/carts.html"><b>CARTS</b></a></li>
         </ul>
     </nav>
     
 
+    <div id="allProducts"></div>
+
 
 
 
     <script src="./product.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000, // animation duration (ms)
+            once: true,     // play only once
+        });
+    </script>
 </body>
 </html>
