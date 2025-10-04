@@ -21,7 +21,7 @@ fetch('https://dummyjson.com/products', {
             <img src="${value.thumbnail}" alt="${value.title}">
             <h5>${value.title}</h5>
             <p>${value.price}</p>
-            <button>Add to Cart</button>
+            <button onclick="addToCart(${value.id}, '${value.title}', '${value.thumbnail}', ${value.price})">Add to Cart</button>
         </div>
         `;
 
@@ -37,3 +37,21 @@ fetch('https://dummyjson.com/products', {
     console.log("Completed")
 })
 
+
+function addToCart(id, title, image,price) {
+alert("product added to cart");
+
+const cartItem = JSON.parse(localStorage.getItem("carts")) || [];
+let productcart = {
+    id: id,
+    title: title,
+    image: image,
+    price: price,
+};
+
+cartItem.push(productcart);
+localStorage.setItem("carts", JSON.stringify(cartItem,));
+
+console.log(JSON.parse(localStorage.getItem("carts")).length);
+console.log(JSON.parse(localStorage.getItem("carts")));
+}

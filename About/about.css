@@ -7,6 +7,9 @@
     list-style: none;
 
 }
+body{
+overflow-x: hidden;
+}
 
 #header a {
     text-decoration: none;
@@ -54,7 +57,7 @@
 
 #block1{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
     border-radius: 0.5px solid #ccc;
     padding: 20px;
@@ -194,6 +197,7 @@ margin-top: 100px;
 #container1 {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #block4 {
@@ -219,6 +223,7 @@ margin-top: 100px;
 #container2{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 #block6 {
        display: flex;
@@ -291,4 +296,27 @@ margin-top: 100px;
     text-decoration: none;
     margin: 0 14px;
     font-weight: 500;
+}
+
+
+@media (max-width:768px) {
+    #block1, #block2, #block3, #block4, #block5, #block6, #section, #section2, #section3 {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+    }
+
+   
+
+    #temu {
+        width: 100%;
+        font-size: medium;
+        margin-top: 20px;
+        padding: 0;
+        text-align: center;
+    }
 }
